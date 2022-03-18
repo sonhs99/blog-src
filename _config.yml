@@ -1,11 +1,11 @@
-title: Hexo
-subtitle: ''
-description: ''
-keywords: null
-author: John Doe
-language: en
+title: https://
+subtitle: Little Programmer
+description: 모든 것이 궁금한 새내기 프로그래머
+keywords: ML, OS, Reverse Engineering
+author: Huiseung Son
+language: ko
 timezone: ''
-url: http://example.com
+url: http://sonhs99.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -28,7 +28,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -61,4 +61,6 @@ exclude: null
 ignore: null
 theme: icarus
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/sonhs99/sonhs99.github.io.git
+  branch: main
