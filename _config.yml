@@ -1,4 +1,4 @@
-title: .Jar
+title: Jar.Empty()
 subtitle: ''
 description: ''
 keywords: null
@@ -28,7 +28,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -64,3 +64,5 @@ deploy:
   type: git
   repo: https://github.com/sonhs99/sonhs99.github.io.git
   branch: main
+mermaid:
+  enable: true
