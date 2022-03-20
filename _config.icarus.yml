@@ -7,7 +7,7 @@ logo: /img/logo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/logo.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -160,10 +160,12 @@ search:
     type: insight
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-# comment:
-#     type: disqus
-#     # Disqus shortname
-#     shortname: ''
+comment:
+    type: utterances
+    repo: sonhs99/sonhs99.github.io
+    issue_term: pathname
+    theme: github-light
+    crossorigin: anonymous
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
